@@ -1,0 +1,60 @@
+
+<html>
+    <head>
+        <title>
+            MY SEARCH ENGINE
+        </title>
+         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+        
+       
+        <link rel="stylesheet" type="text/css" href="newcss.css">
+    </head>
+    <body id="cointain">
+         <div id="header">
+           
+            
+            
+            <nav>
+                <ul class="topright" style="list-style-type: none;">
+                    <li><a href="">ABOUT</a></li>
+                    </ul>
+                    <ul class="topleft" style="list-style-type: none;">
+                          <li><a href="http://www.evirishealth.com/">eViRis Health</a></li> 
+                    </ul>
+            </nav>
+             
+        </div>
+        <div class="name">
+            <p>WELCOME TO CUSTOMIZE SEARCH ENGINE</p>
+        </div>
+        <div class="form">
+            <form id="frmSearch" method="get"/>
+            <input type="text" id="txtSearch" placeholder="Type here"/>
+            
+           <div class="buttons">
+               <input type="submit" value="SEARCH" id="google_search">
+           </div>
+            
+            <script type="text/javascript">
+                document.getElementById('frmSearch').onsubmit=function()
+                {
+                    window.location='http://www.google.com/search?q='+document.getElementById('txtSearch').value;
+                    return false;
+                }
+            </script>
+        </div>
+        <footer>
+            <ul class="foot_left">
+            <li> <a href="">FAX : +91 4046464890</a></li>
+            <li> <a href="">info@evirishealth.com</a></li>
+            <li> <a href="">All right reserved to eviris health</a></li>
+            </ul>
+            <ul class="foot_right">
+            <li> <a href="">CONTACT : 040-4646 4506</a></li>
+            <li> <a href="">support@evrishealth.com</a></li>
+            <li> <a href="">HYDRABAD TELANGANA</a></li>
+            </ul>
+        </footer>
+        
+    </body>
+</html>
